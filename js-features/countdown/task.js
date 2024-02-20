@@ -9,6 +9,6 @@ const timerReduce = function() {
         clearInterval(intervalId);
     }
 
-}
+};
 
-const intervalId = setInterval(timerReduce, 100);
+const intervalId = setInterval(timerReduce, 1000);
